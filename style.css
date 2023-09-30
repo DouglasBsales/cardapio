@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Cheese;
+    src: url('fonttitle/Cheese Burger.otf') format(opentype);
+    font-weight:normal;
+    font-style:normal;
+}
+
+body{
+  background-image:linear-gradient(to right,#FFA226,#B54800);
+}
+
+h1{
+    font-family:'Cheese', Times, serif;
+    font-weight:normal;
+    text-align:center;
+    font-size:4em;
+    color:#ED1328;
+    background-color:#fff;
+    border-radius:20px;
+    margin:50px auto;
+    padding:5px;
+}
+
+h2{
+    text-align:center;
+    margin-top:-20px;
+    font-family:'Cheese', Times, serif;
+    color:#fff;
+    font-size:4em;
+    text-shadow:1px 1px 2px black;
+    
+}
+
+li{
+    font-family:'Cheese', Times, serif;
+    font-size:1.5em;
+    color:#e48811;
+    text-shadow:1px 1px 1px black;
+    
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+}
+
+.simples{
+    background-color:#fff;
+    width:400px;
+    margin-top:100px;
+    margin-bottom:30px;
+    padding-bottom: 10px;
+    padding-right:200px;
+    border-radius:20px;
+    box-shadow:5px 5px 15px #a1610da2;
+
+}
+
+.especiais{
+    background-color:#fff;
+    width:400px;
+    margin:auto;
+    margin-top:-551px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    border-radius:20px;
+    box-shadow:5px 5px 15px #a1610da2;
+}
+
+.acomp{
+    background-color:#fff;
+    width:400px;
+    height:270px;
+    margin-top:-510px;
+    float:right;
+    padding-right:200px;
+    border-radius:20px;
+    box-shadow:5px 5px 15px #a1610da2;
+}
+
+.bebidas{
+    background-color:#fff;
+    width:600px;
+    border-radius:20px;
+    float:right;
+    margin-top:-248px;
+}
+
+h3{
+    font-family:'Cheese', Times, serif;
+    font-weight:bolder;
+    text-align:center;
+    background-color:#B54800;
+    color:#FED813;
+    text-shadow:1px 1px 1px black;
+    width:580px;
+    border-radius:10px;
+    padding:10px;
+    margin-bottom:60px;
+    font-weight:normal;
+    font-size:2em;
+    margin-top:-10px;
+}
+
+.link{
+    width:300px;
+    text-decoration:black;
+    text-align:center;
+    border-radius:20px;
+    margin:20px auto;
+}
